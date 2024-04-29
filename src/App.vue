@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img height="540px" width="770px" alt="sound" src="https://images.unsplash.com/photo-1582767916724-808850c4486f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    
+    <panels msg="acoustic panels"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import panels from './components/panels.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    panels
   }
 }
 </script>
